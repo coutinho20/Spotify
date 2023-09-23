@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    background: #000000;
+    color: aliceblue;
+}
+
+h1{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    position: relative;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 0px;
+    top: -20px;
+
+}
+img{
+    position: relative;
+    width:5%;
+    height: auto;
+    top:-50px;
+    left: 50px;
+}
+a{
+    position: relative;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 200px;
+    color: beige;
+}
+i{
+    position: relative;
+    top: -55px;
+    left: 58px;
+    font-size: 30px;
+}
+
+.textfild1{
+    position: relative;
+    top:80px;
+    left: -140px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+
+}
+.textfild2{
+    position: relative;
+    top:100px;
+    left: -185px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.textfild1 > input{
+    width: 192%;
+    border: 2px solid #777;
+    border-radius: 10px;
+    padding: 15px;
+    background: #3a3939;
+    color: #fff;
+}
+.textfild2 > input{
+    width: 270%;
+    border: 2px solid #777;
+    border-radius: 10px;
+    padding: 15px;
+    background: #3a3939;
+    color: rgb(255, 255, 255);
+}
+.btn-entre{
+    position: relative;
+    width: 565px;
+    height: 50px;
+    top:150px;
+    background: #04c742;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.borda{
+    position: relative;
+    border-radius: 50px;
+    width: 550px;
+    height: 50px;
+    border: 2px solid #3a3a3a;
+    left: 355px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.card-login{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.conta >p{
+    position: relative;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:247px;
+    left: -100px;
+}
+.conta >a{
+    position: relative;
+    font-size: 18px;
+    left: 86px;
+    top: 225px;
+}
+.borda:hover{
+    background: #fff;
+    transition: 1s;
+    color: #000000;
+    transform: scale(1.10)
+}
+.btn-entre:hover{
+    transition: 1s;
+    transform: scale(1.10)
+}
